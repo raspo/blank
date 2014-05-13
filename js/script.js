@@ -1,18 +1,5 @@
-(function($){
-	$.fn.extend({
-	
-		// Plugin
-		PluginName	: function(){
-		
-			
-		
-		}
-	
-	});
-})(jQuery);
-
 jQuery(document).ready(function($){
 
-	
+    console.log('do something!');
 
 });
