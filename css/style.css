@@ -10,6 +10,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend,
     font-size: 100%;
 }
 
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -78,7 +86,6 @@ html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 
 input[type="checkbox"], input[type="radio"]{
-    box-sizing: border-box;
     padding: 0;
     *height: 13px;
     *width: 13px;
